@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DYAFA</title>
+        <link rel="stylesheet" href="./style.css">
+        
+        
+    </head>
+    <body>
+        <form id="form">
+            <h3>ادخل البيانات </h3>
+            <div class="field">
+              <!-- <label for="name">الاسم</label> -->
+              <input type="text" name="name" id="name" placeholder="الاسم...">
+            </div>
+            <div class="field">
+              <!-- <label for="phone">التليفون</label> -->
+              <input type="text" name="phone" id="phone" placeholder="التليفون...">
+            </div>
+            <div class="field">
+              <!-- <label for="address">العنوان</label> -->
+              <input type="text" name="address" id="address" placeholder="العنوان...">
+            </div>
+          
+            <input type="submit" id="button" value="ارسال" >
+          </form>
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('J8C3Gk7RGQlChqScS')
+          </script>
+          <script src="script.js"></script>
+    </body>
+</html>
